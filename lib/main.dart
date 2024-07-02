@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutterboilerplate/cores/index.dart';
 
-void main() {
+void main() async {
+  /// Initialize dependency injection
+  await configureDependencies();
+
   runApp(const MyApp());
 }
 
