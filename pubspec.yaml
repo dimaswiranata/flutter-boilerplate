@@ -47,6 +47,7 @@ dependencies:
   json_annotation: ^4.9.0
   flutter_secure_storage: ^9.0.0
   flutter_bloc: ^8.1.6
+  fluttertoast: ^8.2.6
 
 dev_dependencies:
   flutter_test:
@@ -90,17 +91,54 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins_Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins_Black_Italic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Poppins_Extra_Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins_Extra_Bold_Italic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Poppins_Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins_Bold_Italic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Poppins_SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins_SemiBold_Italic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins_Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins_Medium_Italic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins_Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins_Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Poppins_Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins_Light_Italic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins_Extra_Light.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins_Extra_Light_Italic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Poppins_Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins_Thin_Italic.ttf
+          weight: 100
+          style: italic
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
