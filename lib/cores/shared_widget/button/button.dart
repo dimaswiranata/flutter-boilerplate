@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutterboilerplate/cores/index.dart';
 
-class AntiButton extends StatefulWidget {
+class OgloButton extends StatefulWidget {
   final String text;
   final ButtonVariant? type;
   final double? buttonWidth;
@@ -25,7 +25,7 @@ class AntiButton extends StatefulWidget {
   final ButtonColor? color;
   final BorderRadius? borderRadius;
   final MainAxisAlignment? mainAxis;
-  const AntiButton({
+  const OgloButton({
     super.key,
     required this.text,
     this.type = ButtonVariant.filled,
@@ -52,15 +52,13 @@ class AntiButton extends StatefulWidget {
   });
 
   @override
-  State<AntiButton> createState() => _AntiButtonState();
+  State<OgloButton> createState() => _OgloButtonState();
 }
 
-class _AntiButtonState extends State<AntiButton> {
-  // AntiButtonStyle ButtonConfig = buttonStyle;
-
+class _OgloButtonState extends State<OgloButton> {
   Widget _buildText() {
     if (widget.loading == true) {
-      return AntiLoading(
+      return OgloLoading(
         color: widget.loadingColor ?? widget.type!.value,
       );
     }

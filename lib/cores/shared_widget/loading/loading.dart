@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutterboilerplate/cores/index.dart';
 
-class AntiLoading extends StatelessWidget {
-  const AntiLoading(
+class OgloLoading extends StatelessWidget {
+  const OgloLoading(
       {super.key, this.height, this.width, this.color, this.margin});
   final double? height;
   final double? width;

@@ -16,6 +16,7 @@ analyzer:
     override_on_non_overriding_member: ignore
     sized_box_for_whitespace: ignore
     type_literal_in_constant_pattern: ignore
+    unnecessary_null_comparison: ignore
   language:
     strict-casts: true
     strict-raw-types: true
