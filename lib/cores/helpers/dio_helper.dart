@@ -48,7 +48,7 @@ class DioHelper {
           _logError(error.message ?? 'Something went wrong');
           // int? responseCode = error.response?.statusCode;
 
-          // TODO : need to handle refresh token when the current token is expired
+          // todo : need to handle refresh token when the current token is expired
           // final refreshToken = getIt<SharedPreferences>().getString(
           //   PreferenceConstant.refreshToken,
           // );

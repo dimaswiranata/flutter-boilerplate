@@ -13,6 +13,7 @@ class AppColors {
 
   /// Text Colors
   static const Color primaryText = Color(0xFF1A1A1A);
+  static const Color backgroundLight = Color(0xFFFFFFFF);
   static const Color greyText = Color.fromRGBO(26, 26, 26, 1);
   static const Color greySubText = Color(0xFF767676);
 
@@ -20,4 +21,5 @@ class AppColors {
   static const Color error = Color(0xFFD14343);
   static const Color border = Color(0xFFE5E5E5);
   static const Color borderCard = Color(0xFFE8E8E8);
+  static const Color hint = Color(0xFFBABABA);
 }
