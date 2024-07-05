@@ -15,5 +15,4 @@ export 'swiper/index.dart';
 export 'tabbar/index.dart';
 export 'toast/index.dart';
 export 'radio/index.dart';
-export 'tooltip/index.dart';
 export 'type.dart';

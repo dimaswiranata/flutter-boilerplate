@@ -66,25 +66,6 @@ enum ShimmerType {
 
 enum FlexDirection { ROW, COLUMN }
 
-enum ToastVariant { outline, filled, boxless }
-
-enum ToastType { ERROR, WARNING, SUCCESS, INFO, APP }
-
-enum ToastPosition { TOP, BOTTOM, SNACKBAR }
-
-extension ToastPositionExt on ToastPosition {
-  ToastGravity get value {
-    switch (this) {
-      case ToastPosition.TOP:
-        return ToastGravity.TOP;
-      case ToastPosition.BOTTOM:
-        return ToastGravity.BOTTOM;
-      case ToastPosition.SNACKBAR:
-        return ToastGravity.SNACKBAR;
-    }
-  }
-}
-
 enum OpacityType {
   FADE_IN,
   FADE_OUT,
@@ -94,30 +75,4 @@ enum TabbarType {
   DEFAULT,
   CAPSULE,
   CAPSULE_GROUP,
-}
-
-enum CardType {
-  Master,
-  Visa,
-  Verve,
-  Discover,
-  AmericanExpress,
-  DinersClub,
-  Jcb,
-  Others,
-  Invalid
-}
-
-enum ToastGravity {
-  TOP,
-  BOTTOM,
-  CENTER,
-  TOP_LEFT,
-  TOP_RIGHT,
-  BOTTOM_LEFT,
-  BOTTOM_RIGHT,
-  CENTER_LEFT,
-  CENTER_RIGHT,
-  SNACKBAR,
-  NONE
 }

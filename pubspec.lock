@@ -568,6 +568,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.6.1"
+  intl:
+    dependency: "direct main"
+    description:
+      name: intl
+      sha256: d6f56758b7d3014a48af9701c085700aac781a92a87a62b1333b46d8879661cf
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.19.0"
   io:
     dependency: transitive
     description:
@@ -784,6 +792,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+  preload_page_view:
+    dependency: "direct main"
+    description:
+      name: preload_page_view
+      sha256: "488a10c158c5c2e9ba9d77e5dbc09b1e49e37a20df2301e5ba02992eac802b7a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
+  proste_indexed_stack:
+    dependency: "direct main"
+    description:
+      name: proste_indexed_stack
+      sha256: "12ea6665d12be110afe0ee13232b5f612ff76c6c465296cc53cba3790548bcf8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.4"
   provider:
     dependency: transitive
     description:
@@ -824,6 +848,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.27.7"
+  scrollable_positioned_list:
+    dependency: "direct main"
+    description:
+      name: scrollable_positioned_list
+      sha256: "1b54d5f1329a1e263269abc9e2543d90806131aa14fe7c6062a8054d57249287"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.8"
   shared_preferences:
     dependency: "direct main"
     description:
@@ -909,6 +941,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  smooth_page_indicator:
+    dependency: "direct main"
+    description:
+      name: smooth_page_indicator
+      sha256: "725bc638d5e79df0c84658e1291449996943f93bacbc2cec49963dbbab48d8ae"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   source_gen:
     dependency: transitive
     description:

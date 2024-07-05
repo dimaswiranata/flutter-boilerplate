@@ -1,0 +1,1 @@
+export 'swiper.dart';
