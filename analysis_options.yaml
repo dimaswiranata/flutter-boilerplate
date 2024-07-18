@@ -14,6 +14,7 @@ analyzer:
     constant_identifier_names: ignore
     overridden_fields: ignore
     override_on_non_overriding_member: ignore
+    prefer_const_constructors: ignore
     sized_box_for_whitespace: ignore
     type_literal_in_constant_pattern: ignore
     unnecessary_null_comparison: ignore
